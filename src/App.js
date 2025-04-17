@@ -20,21 +20,7 @@ function App() {
 
   return (
     <div className="app">
-      {/* Header */}
-      <header>
-        <img src="/images/logo.png" alt="MentalHealth Logo" />
-        <nav>
-          <ul>
-            <li>Home</li>
-            <li>Advice</li>
-            <li>Time Management</li>
-            <li>
-              <i className="fas fa-user"></i>
-            </li>
-          </ul>
-        </nav>
-      </header>
-
+    
       {/* Timer Section */}
       <section className="timer-section">
         <Timer tasks={tasks} onRemoveTask={handleRemoveTask} />
