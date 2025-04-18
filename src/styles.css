@@ -282,16 +282,16 @@ header nav ul li.active {
   background-color: #d3f5f3; /* Light teal */
   color: #5ca19e; /* Darker teal */
   border: none;
-  margin-top: 20px;
-  margin-left: 25%;
-  padding: 10px 210px;
+  margin: 20px auto; /* Center vertically with top/bottom margin and horizontally with auto */
+  padding: 10px 250px;
   border-radius: 5px;
   cursor: pointer;
-  display: flex;
-  align-items: center;
   font-weight: bold;
-  gap: 10px;
   font-size: 18px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: fit-content; 
 }
 
 .add-task-button .icon {
