@@ -6,9 +6,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Navigate to="/pomodoro" />} />
-        <Route path="/pomodoro" element={<PomodoroPage />} />
-
+        <Route path="/"element={<PomodoroPage />} />
       </Routes>
     </Router>
   );
